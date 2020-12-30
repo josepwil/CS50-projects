@@ -13,10 +13,12 @@ Pset7 - Houses, Movies | Languages - Python, SQL <br />
 Pset8 - Homepage | Languages - HTML, CSS, Javascript <br />
 
 ## Larger Projects
-Finance - Langauges- HTML, CSSS, Python, Flask, SQL <br />
+Finance - Langauges - HTML, CSSS, Python, Flask, SQL <br />
 A web app via which you can manage portfolios of stocks. Not only will this tool allow you to check real stocks’ actual prices and portfolios’ values, it will also let you buy (okay, “buy”) and sell (okay, “sell”) stocks by querying IEX for stocks’ prices. <br />
 
 
-Final Project (project) - Langauges- HTML, CSSS, Python, Flask, SQL <br />
+myHike - (project) - Langauges- HTML, CSSS, Python, Flask, SQL <br />
 A web app for finding and tracking hikes/trails. More info can be found by reading the README inside the 'project' folder.
+
+![Log in page](https://i.ibb.co/pPXBQ8p/one.png)
 
