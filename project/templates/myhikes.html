@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    My hikes
+{% endblock %}
+
+{% block main %}
+
+    <form action="/myhikes" method="POST" enctype="multipart/form-data" novalidate="novalidate">
+
+        <h1 class="display-4 font-weight-normal">My Hikes</h1>
+
+        {% for item in hikeData %}
+            <div class="card bg-transparent" style="width: 77%;">
+              <div class="card-body special-class">
+                <h5 class="card-title">{{ item['name'] }}</h5>
+                <h6 class="card-subtitle mb-2 text-muted" name="diffi">{{ item['difficulty'] }}</h6>
+                <p class="card-text">{{ item['description'] }}</p>
+              </div>
+              <div class="card-footer bg-transparent">
+                <button name="deleteBtn" value="{{ item["name"] }}" type="submit" class="btn btn-outline-danger btn-sm float-right">Delete</button>
+             </div>
+            </div>
+        {% endfor %}
+
+    </form>
+
+
+
+
+{% endblock %}

@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Buy
+{% endblock %}
+
+{% block main %}
+    <form action="/buy" method="post" onSubmit=document.querySelector("#buyBtn").disabled=true>
+        <div class="form-group">
+            <input autocomplete="off" autofocus class="form-control" name="stockSymbol" placeholder="Enter Stock Symbol" type="text">
+
+        </div>
+        <div class="form-group">
+            <input autocomplete="off" autofocus class="form-control" name="stockQuantity" placeholder="Enter Quantity" type="number">
+
+        </div>
+        <button id="buyBtn" class="btn btn-primary" type="submit">Buy</button>
+    </form>
+
+
+{% endblock %}

@@ -1,0 +1,8 @@
+prompt user for input (height of pyramid) - get_int
+if input between 1-8
+    - show pyramid
+        -iterate 1 through height 
+            -print i hashes then newline
+else if not between 1-8
+    -ask again for another input (do while loop)
+

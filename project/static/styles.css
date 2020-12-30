@@ -1,0 +1,127 @@
+body
+{
+    background-image: url('https://miro.medium.com/max/2000/1*fHCjSs9KzssYSnjCZqUSpQ.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    margin: 0;
+    padding-top: 50px;
+}
+
+footer
+{
+    padding-bottom: 1px;
+    padding-left: 1px;
+}
+
+
+main .form-control
+{
+    /* center form controls */
+    display: inline-block;
+
+    /* override Bootstrap's 100% width for form controls */
+    width: auto;
+}
+
+main
+{
+    /* scroll horizontally as needed */
+    overflow-x: auto;
+
+    /* center contents */
+    text-align: center;
+}
+
+main img
+{
+    /* constrain images on small screens */
+    max-width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+main .container-p5
+{
+    width: auto;
+}
+
+#addForm .form-control
+{
+    width: 100%;
+}
+
+#addForm .row
+{
+    margin-right: 0px;
+    margin-top: 10px;
+
+}
+
+#addForm
+{
+    display: inline-block;
+    width: 80%;
+    background-color: rgba(245, 245, 245, 0.5);
+}
+
+#searchForm
+{
+    display: inline-block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#searchForm .form-group.row
+{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#search_bar
+{
+    width: 100%;
+}
+
+.card
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    border-style: none !important;
+}
+
+.card-footer
+{
+    padding: 4px !important;
+}
+
+.special-class
+{
+    background-color: rgba(245, 245, 245, 0.9) !important;
+}
+
+.search
+{
+    margin-top: 15px;
+}
+
+#add_title
+{
+    width: 100%;
+}
+
+#add_button
+{
+    margin: auto;
+}

@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Index
+{% endblock %}
+
+{% block main %}
+    <form action="/" method="post">
+        <table class="table table-striped">
+            <tbody>
+                <tr>
+                    <th>Stock</th>
+                    <th>Quantity</th>
+                    <th>Value per Stock</th>
+                    <th>Total Value</th>
+                </tr>
+
+                {% for item in stockData %}
+                    <tr>
+                        <td>{{ item['stock'] }}</td>
+                        <td>{{ item['quantity'] }}</td>
+                        <td>$ {{ item['stockPrices'] }}</td>
+                        <td>$ {{ item['stockPriceTotals'] }}</td>
+                    </tr>
+
+                {% endfor %}
+            </tbody>
+            <tfoot>
+                <tr class=table-info>
+                    <th>Cash Available:</th>
+                    <td>$ {{ activeUserCash }}</td>
+                    <th>Total Assets:</th>
+                    <td>$ {{ portfolioValue }}</td>
+                </tr>
+            </tfoot>
+        </table>
+
+
+    </form>
+
+
+{% endblock %}

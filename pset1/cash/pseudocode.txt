@@ -1,0 +1,9 @@
+receive input of change from user
+check change is positive i.e. > 0 do while loop
+convet dollars to cents using round
+multiple while loops?
+do this while change !== 0
+    start with 25 then 10 then 5 then 1 - check if change to give is smaller
+    - tally coins used
+    -tally change left to give
+print coins used

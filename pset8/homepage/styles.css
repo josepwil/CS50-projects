@@ -1,0 +1,91 @@
+h1
+{
+    text-align: center;
+    margin: 10px;
+}
+h2
+{
+    text-align: center;
+    margin: 40px;
+}
+p
+{
+    text-align: center;
+}
+
+.nav
+{
+    list-style-type: none;
+    margin: 10px 0px;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+li
+{
+    display: block;
+    justify-content: center;
+    margin: auto;
+}
+
+li a
+{
+    display: block;
+    padding: 8px 30px;
+    color: white;
+    text-decoration: none;
+}
+
+li a:hover
+{
+    background-color: #a1a1a5;
+    text-decoration: none;
+    color: black;
+}
+
+
+img
+{
+    width: 400px;
+    height: auto;
+    margin: auto;
+    display: block;
+    padding: 20px;
+}
+
+table
+{
+    margin: 80px auto;
+}
+th
+{
+    padding: 0px 20px;
+}
+td
+{
+    padding: 0px 20px;
+}
+
+form
+{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 40px auto;
+}
+
+input
+{
+    margin: 5px;
+}
+
+
+
+#history
+{
+    width: 60%;
+    margin: 50px auto;
+    text-align: left;
+}
+
